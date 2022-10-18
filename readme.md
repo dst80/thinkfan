@@ -1,4 +1,7 @@
-# Thinkfan installation
+# Thinkfan installation (P14s)
+
+> **Note:** The number and names of the sensors may differ between Lenovo notebook models. They must be adapted for the respective notebook model. The present configuration is for a Lenovo P14s notebook.
+
 
 ## Arch Linux
 
@@ -43,7 +46,7 @@ Note that the thinkfan package installs /usr/lib/modprobe.d/thinkpad_acpi.conf, 
 
     ```bash
     sudo systemctl start thinkfan.service
-    ```
+    ```  
 
 ## Ubuntu
 
