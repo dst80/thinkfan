@@ -48,6 +48,13 @@ Note that the thinkfan package installs /usr/lib/modprobe.d/thinkpad_acpi.conf, 
     sudo systemctl start thinkfan.service
     ```  
 
+7. Check, if the service is running, by typing
+
+    ```bash
+        systemctl status thinkfan.service
+    ```
+    It should respond: **active (running)**
+   
 ## Ubuntu
 
 1. Enable fan control
@@ -62,4 +69,4 @@ Note that the thinkfan package installs /usr/lib/modprobe.d/thinkpad_acpi.conf, 
     sudo apt install thinkfan
     ```
 
-3. do steps 3-6 from Arch Linux.  Keep in mind, that the hwmon settings may differ between Arch Linux and Ubuntu.
+3. do steps 3-7 from Arch Linux.  Keep in mind, that the hwmon settings may differ between Arch Linux and Ubuntu.
